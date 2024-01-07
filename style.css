@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header-profile{
+       width: 100px;
+       height: 120px;
+       border: 3px solid white;
+       border-radius: 50%;
+       float: left;
+}
+.bio{
+    float: left;
+    padding: 25px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.header-contact{
+    float: right;
+    padding: 25px;
+}
+.header-contact a{
+               text-decoration: none;
+               color: teal;
+               font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+    
+}
+
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.content{
+    margin-bottom: 30px;
+    
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+    width: 70%;
+    float: left;
+    
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.edu-left{ 
+    float: left;
+    width: 45%;
+
+}
+.edu-right{
+    float: left;
+    width: 45%;
+    
+}
+.bottom{
+
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom a:hover{
+    color: red;
+    text-shadow: #EEE;
+}
+.bottom p {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 20px;
+}
